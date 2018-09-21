@@ -1,0 +1,106 @@
+*
+{
+    font-family: "Trebuchet MS", Arial, serif;
+}
+
+p
+{
+	color: blue;
+}
+
+h1, h2
+{
+	color: purple;
+	font-size: 40px;
+	font-style: italic;
+	text-align: center;
+}
+
+/* Voici comment mettre des commentaires */
+
+/* Ci dessous : mise en page par "class" que j'ai appelé introduction pour l'exemple */
+
+.introduction
+{
+	color: red;
+	font-size: small;
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+.dessous
+{
+	clear: both;
+}
+
+/* et pour mettre en page une id : */
+
+#exempleid
+{
+	color: pink;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#mario
+{
+	border-image-width: : 100px;
+}
+
+.gras
+{
+	color: brown
+}
+
+/*Sélecteur universel :*/
+
+*
+{}
+
+/* Sélecteur une balise contenue dans une autre : em dans h3 */
+
+h3 em
+{}
+
+/* une balise qui en suit une autre : p après h3 */
+
+h3 + p
+{}
+
+/* sélection des lien <a> qui possèdent un attribut title */
+
+a[title]
+{}
+
+/* sélection d'un id "ancre_titre" et application d'une bordure */
+
+#ancre_titre {
+border: 4px blue solid;
+border-radius: 30px;
+box-shadow: 6px 6px 3px purple;
+}
+
+#hover:hover /*changement d'apparence au survol*/
+{
+  text-decoration: underline;
+  color: green;
+}
+
+#halfwidth{
+  width: 50%; /*calculé par rapport à la taille de la fenetre ouverte*/
+  min-height: 80px;
+  max-width: 600px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 50px; /*marge extérieure*/
+  padding: 20px; /*marge intérieure*/
+}
+
+#centeredblock{
+  width: 70%;
+  border: 2px solid green;
+  margin: auto;
+}
